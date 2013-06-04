@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Welcome to CodeIgniter</title>
-	<script src="/resources/js/jquery-1.6.min.js" type="text/javascript"></script>
+	<script src="/resources/js/min/jquery-1.6.min.js" type="text/javascript"></script>
 	<script src="/resources/js/test.min.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="/resources/css/test.min.css" type="text/css"></link>
 
@@ -70,9 +70,16 @@
 		</pre>
 
 
-		也可以调用根目录 resources 文件夹里存在的文件如
-		<code>/resources/js/jquery-1.6.min.js</code>
+		也可以调用根目录 resources 文件夹里存在的文件,如
+		<code>/resources/js/min/jquery-1.6.min.js</code>
+			<script>
+				$(document).ready(function(){
+					$('#text').html("jquery已加载");
+				  });
+			</script>
+		<p id="text">
 
+		</P>
 		</pre>
 
 	</div>
